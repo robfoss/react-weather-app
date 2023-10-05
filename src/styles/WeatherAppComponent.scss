@@ -1,0 +1,58 @@
+.app-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    justify-content: center;
+
+    .search-container {
+        margin-top: 5rem;
+        row-gap: 24px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        border-radius: 10px;
+        width: auto;
+        min-width: 600px;
+        min-height: 800px;
+        background-image: linear-gradient(to bottom, #AEC6CF, #000080);
+        margin: auto;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            padding: 30px 20px;
+            column-gap: 12px;
+
+            input {
+                flex: 1;
+                width: auto;
+                min-width: 400px;
+                height: 50px;
+                outline: none;
+                color: #A9A9A9;
+                font-size: 18px;
+                font-weight: 400;
+            }
+
+            button {
+                background-color: white;
+                transition: background-color 0.3s ease;
+                font-size: 18px;
+                font-weight: 400;
+                color: #A9A9A9;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 15px 15px;
+
+                &:hover {
+                    background-color: #F5F5F5;
+                }
+            }
+        }
+    }
+}
